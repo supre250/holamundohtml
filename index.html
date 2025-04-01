@@ -14,57 +14,125 @@
 </head>
 <body>
     <!--Etiquetas de titulo-->
-    <h1>Aqui está el titulo</h1>
+    <h1 style="color: blanchedalmond;">Aqui está el titulo</h1>
     <h2>Aqui va un subtitulo</h2>
     <h3>Aqui esta un subtitulo del subtitulo</h3>
-    <!--Etiqueta de parrafo-->
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-         Quae praesentium esse fuga molestias velit iste, 
-         autem non consequuntur ab, vero in dolor incidunt quidem vitae magni quam harum, 
-         atque temporibus.</p>
-<!--Etiqueta de enlace o referencia-->
-<a href="https://www.youtube.com/watch?v=kE1-O0tU-UU"> Ir a YOUTUBE</a>
-<!--Etiquetas de imagenes-->
-<img src="Imagen/image-removebg-preview-10.webp" alt="" width="60px" height="60px">
-<!--Referencias a contactos.html-->
-<br>
-<a href="Paginas/contactos.html"> Ir a contactos</a>
 
-<!--Etiqueta de tabla-->
-<!--td = datos de tabla-->    <!--tr = fila de tabla--> 
-<!--border = le da unos bordes básicos -->
-<h3>Ejemplo de tabla</h3>
-<table border="1">
-    <tr>
-        <td></td>
-        <td>Raza</td>
-        <td>Edad (años)</td>
-    </tr>
-    <tr>
-        <td>Perro</td>
-        <td>calvo</td>
-        <td>5</td>
-    </tr>
-</table>
-<!--form = formulario-->              <!--label = titulo para un control de la interfaz de usuario--> 
-<!--imput = usa para ingresar datos-->           <!-- textarea = --> <!--button = -->    
-<!-- li = define cada elemento de la lista-->    <!--ul = crea una lista no ordenada-->
-<form method="post">
-    <ul>
-        <li>
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" name="user_nombre"
-        </li>
-        <li>
-            <label for="mail">Correo electronico</label>
-            <input type="email" id="mail" name="user_email"
-        </li>
-        <li>
-            <label for="msg">Mensaje</label>
-            <textarea id="msg" name="user_mensaje"></textarea>
-        </li>
-    </ul>
-</form>
+
+    <!--Etiqueta de parrafo--> <!--strong = resalta la palabra importante--> <!--span = trabaja con iconos-->
+    <p>Lorem ipsum <strong>Texto importante</strong>, dolor sit amet consectetur adipisicing elit.
+         Quae praesentium esse fuga molestias velit iste, 
+         autem non consequuntur ab, <span>Aqui c:</span> in dolor incidunt quidem vitae magni quam harum, 
+         atque temporibus.</p>
+         <!--hr = linea horizontal-->
+         <hr>
+<br>
+    <!--Etiqueta de enlace o referencia-->
+    <a style="background-color: aqua;" href="https://www.youtube.com/watch?v=kE1-O0tU-UU"> Ir a YOUTUBE</a>
+    <br>
+    <br>
+    <!--Etiquetas de imagenes-->
+    <img src="Imagen/dos.jpeg" alt="" width="100px" height="120px">
+    <br>
+    <!--Referencias a contactos.html-->
+    <br>
+    <a href="Paginas/contactos.html"> Ir a contactos</a>
+
+    <br>
+
+    <!--Etiqueta de tabla-->
+    <!--td = datos de tabla-->    <!--tr = fila de tabla--> 
+    <!--border = le da unos bordes básicos --> 
+    <h3>Ejemplo de tabla</h3>
+    <table border="1">
+        <tr>
+            <td></td>
+            <td>Raza</td>
+            <td>Edad (años)</td>
+        </tr>
+        <tr>
+            <td>Perro</td>
+            <td>calvo</td>
+            <td>5</td>
+        </tr>
+    </table>
+    <br>
+    <!--form = formulario-->              <!--label = titulo para un control de la interfaz de usuario--> 
+    <!--imput = usa para ingresar datos-->           <!-- textarea = --> <!--button = -->    
+    <!-- li (list) = define cada elemento de la lista-->    <!--ul = crea una lista no ordenada-->
+    <h3>Encuesta nombre</h3>
+    <form method="post">
+        <ul>
+            <li>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="user_nombre"
+            </li>
+            <li>
+                <label for="mail">Correo electronico</label>
+                <input type="email" id="mail" name="user_email"
+            </li>
+            <li>
+                <label for="msg">Mensaje</label>
+                <textarea id="msg" name="user_mensaje"></textarea>
+            </li>
+        </ul>
+        <!--listas oredenadas = ol-->
+        <h3>Campeonato nacional</h3>
+        <ol>
+            <li>Pavo SC</li>
+            <li>LDU</li>
+            <li>Vinotinto</li>
+            <li>Coquetas</li>
+        </ol>
+
+    </form>
+    <!--contenedor-->
+    <section>
+        <div>
+            <article>
+                <h2>Contenedor 1</h2>
+                <p>dfasdvefbevsdvaefvdfvadfsvdfvdfvdfvsdvdfvdfvadffvdfvvadfvadfvda</p>
+            </article>
+        </div>
+    </section>
+
+    <!--Tablas-->
+    <div>
+        <div>
+            <h2>Poblacion Latina</h2>
+        </div>
+        <div>
+            <table border="3" style="border-color: rgb(175, 48, 48);">
+                <thead>
+                        <th>Numero</th>
+                        <th>Pais</th>
+                        <th>Poblacion</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Argentina</td>
+                        <td>30000000</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Ecuador</td>
+                        <td>17000000</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Venezuela</td>
+                        <td>46347852</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Peru</td>
+                        <td>46347852</td>
+                    </tr>
+                </tbody>
+        </div>
+
+    </div>
 
 
 </body>
